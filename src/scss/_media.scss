@@ -1,0 +1,373 @@
+@media (max-width: 1200px) {
+    .header__link {
+        font-size: 13px;
+        padding-right: 20px;
+    }
+    // .contacts__phone {
+    //     font-size: 19px;
+    // } обошелся другим путем col-md-3 offset-md-1 col-xl-2 offset-xl-2
+    .promo__title {
+        font-size: 48px;
+    }
+    .promo__subtitle {
+        font-size: 30px;
+    }
+    .start__devider {
+        height: 30px;
+    }
+    .start__textup {
+        width: 300px;
+    }
+    .mobile__item {        
+        height: 250px;
+        width: 280px;
+        padding-top: 60px;
+    }
+    .item__text {
+        font-size: 22px;
+    }
+    .social-icons {        
+        padding-left: 18px;
+    }
+    .flex-3stores {
+        padding-right: 18px;
+    }
+    .link-store {
+        height: 23px;
+        width: 65px;
+    }
+    .promo__descr {
+        width: 80%;
+    }
+}
+@media (max-width: 991px) {
+    .header__link {
+        font-size: 11px;
+        padding-right: 10px;
+    }
+    .contacts__logo img{
+        width: 100%;
+    }
+    .contacts__logotext {
+        font-size: 12px;
+    }
+    .conditions__item {
+        width: 100%;
+    }
+    .title {
+        font-size: 36px;;
+    }
+    .start__textup {
+        width: 230px;
+    }
+    .mobile__item {        
+        height: 210px;
+        width: 235px;
+        padding-top: 60px;
+    }
+    .item__text {
+        font-size: 20px;
+    }
+    .contacts__btn{
+        width: 154px;
+        height: 41px;
+    }
+    .select__car {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .header__link {
+        font-size: 11px;
+        padding-right: 10px;
+    }
+    .header__menu {
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        min-height: 47px;
+    }
+    .header__links {
+        position: fixed;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;        
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.8);
+        padding: 20px 15px;        
+        transition: 0.6s;
+        &_active {
+            left: 0;
+        }
+    }
+    .header__link {
+        font-size: 20px;
+    }
+    .contacts__phone {
+        display: block;
+        text-align: center;
+        font-size: 20px;
+    }
+    .contacts {
+        padding-top: 48px;
+        padding-bottom: 15px;
+        font-weight: 400;
+        &__logo {
+            & img {
+                width: 100%;
+            }
+        }
+    }
+    .xs-hidden {
+        display: none;
+    }
+    .contacts__btn {
+        margin: 0 auto;
+        margin-top: 15px;
+        display: block;
+        width: 210px;
+        height: 42px;
+        border-radius: 9px;
+        text-transform: uppercase;
+    }
+    .xs-visible {
+        display: block;
+    }
+    .title {
+        font-size: 28px;
+    }
+    .hamburger {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 26px;
+        height: 12px;
+        & span {
+            display: block;
+            height: 2px;
+            width: 100%;
+            background: #fff;
+            margin-bottom: 2px;
+            transition: 0.5s;
+        }
+        &_active {
+            & span {
+                margin-bottom: -2px;
+                &:nth-child(1) {                    
+                    transform: translateY(3px) rotate(-45deg);
+                }
+                &:nth-child(2) {
+                   display: none;
+                }
+                &:nth-child(3) {
+                    transform: translateY(3px) rotate(45deg);
+                }
+            }
+        }
+    }
+    .promo__title {
+        margin-top: 60px;
+    }
+    .start {        
+        padding-top: 41px;
+        &__title {
+            margin-top: 28px;
+        }
+        &__devider {
+            height: 20px;
+        }
+        &__textup {
+            width: 100%;
+        }
+    }
+    .mark_text {
+        width: 200px;
+        height: 42px;
+        font-size: 18px;
+        font-weight: 400;
+        padding-top: 12px;
+    }
+    .select__descr {
+        margin-top: 48px;
+        color: #fff;
+        font-size: 30px;
+    }
+    .select {
+        background: #000;
+    }
+    .mobile {
+        padding-top: 28px;
+        padding-bottom: 40px;
+        &__title {
+            margin-top: 28px;
+        }
+        &__subtitle {
+            margin-top: 11px;
+        }
+        &__separator {
+            height: 18px;
+        }
+        &__item {
+            position: relative;
+            margin: 0 auto;
+            margin-bottom: 18px;
+            padding: 90px 36px 0 36px;
+            height: 440px;
+            width: 500px;            
+        }
+    }
+    .item__text {
+        font-size: 30px;
+        line-height: 2.0;
+    }
+    // .item__plus {
+    // width: 46px;
+    // height: 46px;
+    // bottom: 40px;
+    // cursor: pointer;
+    // &:before {
+    //     content: '';
+    //     width: 14px;
+    //     height: 2px;
+    //  }
+    // }
+    // &:after {
+    //     content: ''; 
+    //     width: 2px;
+    //     height: 14px;
+    // }
+    .select {
+        min-height: 696px;
+        &__wrapper {
+            padding-top: 56px;
+            padding-bottom: 71px;
+        }
+    }
+    .promo__btn {
+        border-radius: 12px;
+        width: 350px;
+        height: 85px;
+        font-size: 28px;
+    }
+    .map .mark_text {
+        width: 148px;
+        height: 38px;
+    }
+}
+@media (max-width: 575px) {
+    .contacts__btn {
+        width: 110px;
+        height: 22px;
+        font-size: 10px;
+        border-radius: 4px;
+    }
+    .contacts__logo {
+        width: 100%;
+    }
+    .contacts__phone {
+        font-size: 11px;
+    }
+    .promo__title {
+        font-size: 24px;
+    }
+    .promo__subtitle {
+        margin-top: 26px;
+        font-size: 18px;
+    }
+    .promo__btn {
+        width: 200px;
+        height: 48px;
+        font-size: 12px;
+        border-radius: 4px;
+    }
+    .start {        
+        padding-top: 41px;
+        &__title {
+            margin-top: 28px;
+        }
+        &__devider {
+            height: 16px;
+        }
+        &__textup {
+            width: 100%;
+        }        
+    }
+    .mark_text {
+        font-size: 18px;
+        font-weight: 400;
+        padding-top: 12px;
+    }
+    .select__descr {
+        margin-top: 48px;
+        color: #fff;
+        font-size: 30px;
+    }
+    .start__textup {
+        font-size: 12px;
+        width: 100%;
+    }
+    .start__textdescr {
+        font-size: 12px;
+    }
+    .mobile {
+        padding-top: 28px;
+        padding-bottom: 40px;
+        &__title {
+            margin-top: 28px;
+        }
+        &__subtitle {
+            margin-top: 11px;
+        }
+        &__separator {
+            height: 18px;
+        }
+        &__item {
+            width: 100%;
+            position: relative;
+            margin: 0 auto;
+            margin-bottom: 18px;
+            padding: 30px 10px 0 10px;
+            height: 175px;
+            width: 200px;            
+        }
+    }
+    .item__text {
+        font-size: 16px;
+    }
+    .conditions__item {
+        width: 100%;
+    }
+    .flex-block-3 {
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        &:nth-child(3) {
+            order: 1;
+        }
+    }
+    .flex-wrapper {
+        width: auto;
+    }
+    .flex-column {
+        width: 100%;
+        align-self: stretch;
+    }
+    .flex-row1 {
+        font-size: 11px;
+    }
+    .flex-row2 {
+        font-size: 10px;
+    }
+    .flex-3stores {
+        padding: 0;
+    }
+    .support-list {
+        flex-direction: row;
+        flex-wrap: wrap; 
+    }
+}
